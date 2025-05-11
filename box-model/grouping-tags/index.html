@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: darkgray;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+
+        }
+
+        main {
+            background-color: white;
+            padding: 20px;
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 10px;
+            margin: 10px ;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            padding: 2px;
+            text-align: center;
+            margin: 0;
+        }
+
+        nav {
+            background-color: darkgray;
+            padding: 10px;
+        }
+
+        nav a {
+            color: black;
+            text-decoration: none;
+            margin: 0 10px;
+            padding: 2px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+            background-color: rgb(65, 65, 65);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+            <nav>
+                    <a href="#">Home</a>
+                    <a href="#">Sobre</a>
+                    <a href="#">Serviços</a>
+                    <a href="#">Contato</a>
+            </nav>
+
+    </header>
+    <main>
+        <section>
+            <h2>Bem-vindo ao meu site</h2>
+            <p>Este é um exemplo de uso de tags de agrupamento em HTML.</p>
+        </section>
+        <article>
+            <h3>Artigo 1</h3>
+            <p>Conteúdo do artigo 1.</p>
+        </article>
+        <article>
+            <h3>Artigo 2</h3>
+            <p>Conteúdo do artigo 2.</p>
+            <aside>
+                <h4>Informações adicionais</h4>
+                <p>Este é um exemplo de uso da tag <code>&lt;aside&gt;</code>.</p>
+            </aside>
+        </article>
+    </main>
+    <footer>
+        <p>Desenvolvido por Pedro Brandão</p>
+    </footer>
+</body>
+</html>
